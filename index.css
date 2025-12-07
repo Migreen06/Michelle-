@@ -150,6 +150,15 @@
       display: grid;
   }
 
+  .video-box {
+        display: flex;
+        align-items: center;
+        margin: 1rem;
+  }
+
+
+
+
   @media screen and (max-width: 600px) {
 
       .metrics,
