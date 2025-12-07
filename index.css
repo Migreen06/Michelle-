@@ -155,7 +155,11 @@
         align-items: center;
         margin: 1rem;
   }
-
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 
 
