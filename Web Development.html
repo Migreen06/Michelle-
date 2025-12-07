@@ -89,12 +89,12 @@
 
         .web-dev {
             display: flex;
-            max-width: 100vw;
+            max-width: 100%;
         }
 
         .dev-images {
             margin: 20px;
-            padding:1rem;
+            padding: 1rem;
             display: flex;
             flex-wrap: wrap;
         }
@@ -111,39 +111,51 @@
             .menu:hover nav {
                 display: block;
             }
+
             nav {
-          background-color: rgba(203, 238, 199, .9);
-          display: none;
-          width: 200px;
-          position: absolute;
-      }
+                background-color: rgba(203, 238, 199, .9);
+                display: none;
+                width: 200px;
+                position: absolute;
+            }
 
-      nav a {
-          color: black;
-          font-size: 1.1em;
-          display: block;
-          padding: 12px 25px;
-      }
+            nav a {
+                color: black;
+                font-size: 1.1em;
+                display: block;
+                padding: 12px 25px;
+            }
 
-      a:hover nav:hover {
-          background-color: lawngreen;
-          transition: ease-in-out 0.3s;
-      }
+            a:hover nav:hover {
+                background-color: lawngreen;
+                transition: ease-in-out 0.3s;
+            }
 
-      a:active {
-          color: darkgreen;
-          background-color: transparent;
-          text-decoration: none;
-      }
+            a:active {
+                color: darkgreen;
+                background-color: transparent;
+                text-decoration: none;
+            }
 
-      button {
-          color: white;
-          display: inline-flex;
-          background-color: green;
-          font-size: 1em;
-          border: none;
-          padding: 10px 15px;
-      }
+            button {
+                color: white;
+                display: inline-flex;
+                background-color: green;
+                font-size: 1em;
+                border: none;
+                padding: 10px 15px;
+            }
+
+            .web-dev {
+                display: flex;
+                max-width: 100%;
+                flex-direction:column;
+            }
+
+            .dev-images {
+                margin: .5rem;
+                padding: 1rem;
+            }
         }
     </style>
     <div class="menu">
@@ -168,9 +180,12 @@
     <header>
         <h1>Web Development</h1>
     </header>
-    <p style="margin:1.5rem; font-size:1.1rem; text-align:justify; padding:1rem;">This page and entire website was built using purely hand typed code, written and implemented by me. Using responsive design principles, each page dynamically resizes to fit any screen size, ensuring a seamless and professional viewing
-        experience across devices. <br><br> To see examples of some of the websites I created, visit the <a href="web-assets.html">
-        Web Development Assets</a>page.</p>
+    <p style="margin:1.5rem; font-size:1.1rem; text-align:justify; padding:1rem;">This page and entire website was built
+        using purely hand typed code, written and implemented by me. Using responsive design principles, each page
+        dynamically resizes to fit any screen size, ensuring a seamless and professional viewing
+        experience across devices. <br><br> To see examples of some of the websites I created, visit the <a
+            href="web-assets.html">
+            Web Development Assets</a>page.</p>
     <div class="web-dev">
         <div class="dev-images">
             <img src="web dev images/Screenshot 2025-12-01 104427.png" alt="web development screenshot 1"
