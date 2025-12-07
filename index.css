@@ -78,7 +78,7 @@
       display: flex;
       padding-left: 2rem;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: space-evenly;
   }
 
 
@@ -151,15 +151,16 @@
   }
 
   .video-box {
-        display: flex;
-        align-items: center;
-        margin: 1rem;
+      display: flex;
+      align-items: center;
+      margin: 1rem;
   }
-.videos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
+  .videos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
 
 
 
@@ -168,14 +169,11 @@
       .metrics,
       .main {
           flex-direction: column;
-          align-items: center;
-          width:100%;
-
       }
+
       .gif-gallery {
-            flex-direction: column;
-            align-items: center;
-            width:100%;
+          flex-direction: column;
+          justify-items: center;
       }
 
       .menu {
@@ -220,10 +218,6 @@
           padding: 10px 15px;
       }
 
-      .gif-gallery {
-          margin-left: .5rem;
-          margin-right: .5rem;
-      }
 
       .metrics,
       .screenshots {
@@ -239,9 +233,9 @@
       .marketing-images,
       .marketing-assets {
           display: flex;
-          width:100%;
+          width: 100%;
           flex-direction: column;
-          justify-content:center;
+          justify-content: center;
           align-items: center;
       }
   }
