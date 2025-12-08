@@ -94,10 +94,11 @@
   }
 
   .video-box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
   }
+
   nav {
       max-width: 100vw;
       justify-content: space-around;
@@ -160,7 +161,7 @@
       display: flex;
       align-items: center;
       margin: 1rem;
-      max-width:100%;
+      max-width: 100%;
   }
 
   .videos {
@@ -174,14 +175,20 @@
 
   @media screen and (max-width: 600px) {
 
-      .metrics,
-      .main {
+      .metrics {
           display: block;
+      }
+
+      .main {
+          padding: 2rem;
+          display:block;
+          max-width: 100%;
       }
 
       .gif-gallery {
           justify-items: center;
-          display:block;
+          display: block;
+
       }
 
       .menu {
@@ -244,6 +251,6 @@
           max-width: 100%;
           justify-items: center;
           flex-direction: column;
-        
+
       }
   }
