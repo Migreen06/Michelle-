@@ -241,9 +241,9 @@
       .marketing-images,
       .marketing-assets {
           display: flex;
-          width: 100%;
+          max-width: 100%;
+          justify-items: center;
           flex-direction: column;
-          justify-content: center;
-          align-items: center;
+        
       }
   }
