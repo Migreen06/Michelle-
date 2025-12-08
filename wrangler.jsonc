@@ -2,6 +2,6 @@
     "name": "michelle",
     "compatibility_date": "2025-12-08",
     "assets": {
-        "directory": "./dist"
+        "directory": "."
     }
 }
