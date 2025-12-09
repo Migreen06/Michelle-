@@ -129,6 +129,11 @@
       justify-content: space-around;
       max-width: 100%;
   }
+.marketing-images>img {
+    max-width:30%;
+    height:auto;
+}
+
 
   .screenshots {
       display: flex;
@@ -244,5 +249,8 @@
           display: inline;
           max-width: 100%;
           justify-items: center;
+      }
+      .marketing-images>img {
+        max-width:100%;
       }
     }
