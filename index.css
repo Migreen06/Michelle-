@@ -76,7 +76,7 @@
 
   .main {
       display: flex;
-      padding-left: 2rem;
+      padding: 2rem;
       flex-wrap: wrap;
       max-width: 100%;
       justify-content: space-around;
