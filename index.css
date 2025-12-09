@@ -29,15 +29,15 @@
 
   h2 {
       text-align: center;
-      font-size: 25px;
+      font-size: 15rem;
       margin-top: 10px;
   }
 
   footer {
-      font-size: 10px;
+      font-size: .5rem;
       text-align: center;
       color: white;
-      margin-top: 30px;
+      margin-top: 5rem;
   }
 
   .grid-container {
@@ -115,7 +115,7 @@
 
   .marketing-list {
       text-align: left;
-      font-size: 2rem;
+      font-size: 1rem;
       color: white;
       display: flex;
       padding-left: 5rem;
@@ -129,15 +129,16 @@
       justify-content: space-around;
       max-width: 100%;
   }
-.marketing-images>img {
-    max-width:30%;
-    height:auto;
-}
 
-.screenshots>img {
-    max-width:40%;
-    height:auto;
-}
+  .marketing-images>img {
+      max-width: 30%;
+      height: auto;
+  }
+
+  .screenshots>img {
+      max-width: 40%;
+      height: auto;
+  }
 
   .screenshots {
       display: flex;
@@ -187,12 +188,12 @@
       .metrics,
       .screenshots {
           display: inline;
-          max-width:100%;
-          justify-items:center;
+          max-width: 100%;
+          justify-items: center;
       }
 
       .screenshots>img {
-        max-width:100%;
+          max-width: 100%;
       }
 
       .main {
@@ -250,7 +251,8 @@
       }
 
       .marketing-list {
-          padding-left: 1rem
+          padding-left: 1rem;
+          font-size:.5rem;
       }
 
       .marketing-images,
@@ -259,7 +261,8 @@
           max-width: 100%;
           justify-items: center;
       }
+
       .marketing-images>img {
-        max-width:100%;
+          max-width: 100%;
       }
-    }
+  }
