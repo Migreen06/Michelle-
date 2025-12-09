@@ -134,6 +134,10 @@
     height:auto;
 }
 
+.screenshots>img {
+    max-width:40%;
+    height:auto;
+}
 
   .screenshots {
       display: flex;
@@ -185,6 +189,10 @@
           display: inline;
           max-width:100%;
           justify-items:center;
+      }
+
+      .screenshots>img {
+        max-width:100%;
       }
 
       .main {
