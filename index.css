@@ -190,7 +190,7 @@
   @media screen and (max-width: 600px) {
 
       .metrics,
-      .screenshots {
+      .screenshots, .main {
           display: inline;
           max-width: 100%;
           justify-items: center;
@@ -200,16 +200,10 @@
           max-width: 100%;
       }
 
-      .main {
-          padding: 2rem;
-          display: block;
-          max-width: 100%;
-      }
 
       .gif-gallery {
           justify-items: center;
-          display: block;
-
+          display: inline;
       }
 
       h2 {
