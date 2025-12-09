@@ -92,10 +92,12 @@
       vertical-align: middle;
   }
 
-.videos, .videos>video {
-    max-width:30%;
-    height:auto;
-}
+  .videos,
+  .videos>video {
+      max-width: 30%;
+      height: auto;
+  }
+
   .video-box {
       display: flex;
       flex-direction: column;
@@ -118,7 +120,6 @@
 
   .marketing-list {
       text-align: left;
-      font-size: .5rem;
       color: white;
       display: flex;
       padding-left: 5rem;
@@ -212,7 +213,7 @@
       }
 
       h2 {
-        font-size:1rem;
+          font-size: 1rem;
       }
 
       .menu {
@@ -259,7 +260,7 @@
 
       .marketing-list {
           padding-left: 1rem;
-          font-size:.5rem;
+          font-size: .5rem;
       }
 
       .marketing-images,
