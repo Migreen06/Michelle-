@@ -191,7 +191,6 @@
       display: flex;
       margin: 1rem;
     flex-wrap: wrap;
-    justify-content: space-around;
   }
 
   .vids {
