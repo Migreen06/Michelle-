@@ -139,6 +139,11 @@
       font-size: 22px;
   }
 
+  .skill-list {
+display: flex;
+
+  }
+
   .marketing-images,
   .marketing-assets {
       display: flex;
