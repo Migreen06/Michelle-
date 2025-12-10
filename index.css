@@ -182,7 +182,7 @@
   .category {
       text-align: center;
       padding: 1% 8%;
-      box-shadow: 10px 2px 18px 0 rgba(0, 0, 0, 0.2), 10px 6px 20px 0 rgba(0, 0, 0, 0.19);
+box-shadow: 10px 5px 5px red;
       font-size: 28px;
       display: grid;
       border-radius: 8px;
