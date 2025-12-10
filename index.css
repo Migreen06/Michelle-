@@ -183,6 +183,7 @@
       text-align: center;
       font-size: 28px;
       display: grid;
+      border: 1px solid green;
   }
 
   .video-box {
