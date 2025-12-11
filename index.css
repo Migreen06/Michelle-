@@ -199,8 +199,8 @@
       display: flex;
       margin: 1rem;
       flex-wrap: wrap;
-      max-width:100%;
-      align-content:center;
+      max-width: 100%;
+      align-content: center;
       justify-content: space-around;
   }
 
@@ -234,6 +234,19 @@
       padding: 1rem;
       display: flex;
       flex-wrap: wrap;
+  }
+
+  .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .container2 {
+      text-align: center;
+      max-width: 100vw;
+      margin: 0 auto;
   }
 
   @media screen and (max-width: 600px) {
@@ -285,8 +298,7 @@
           padding: 5%;
       }
 
-      a:hover,
-      nav:hover {
+      a:hover nav:hover {
           background-color: darkgreen;
           transition: ease-in-out 0.3s;
       }
@@ -294,7 +306,7 @@
       .intro>p {
           margin: 0;
           padding-left: 10px;
-          padding-right:10px;
+          padding-right: 10px;
       }
 
       button {
@@ -306,7 +318,10 @@
           padding: 10px 15px;
       }
 
-
+      .container2 {
+          padding: 10px;
+          max-width: 60%;
+      }
 
       .marketing-list {
           padding-left: 1rem;
