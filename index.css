@@ -40,6 +40,7 @@
       text-align: center;
       font-size: 1.8rem;
       margin-top: 10px;
+      color: white;
   }
 
   footer {
@@ -91,6 +92,10 @@
       justify-content: space-between;
   }
 
+  ul {
+      margin: 1rem;
+      font-size: 20px;
+  }
 
   .gif-gallery>img {
       align-items: center;
@@ -135,11 +140,12 @@
       color: white;
       display: flex;
       font-size: 22px;
-      justify-content:center;
+      justify-content: center;
   }
 
   .skill-list {
-        padding-left: 8rem;
+      display: flex;
+      justify-content: center;
   }
 
   .marketing-images,
@@ -187,22 +193,43 @@
       display: grid;
   }
 
-  .vidbox{
+  .vidbox {
       display: flex;
       margin: 1rem;
-    flex-wrap: wrap;
+      flex-wrap: wrap;
   }
 
   .vids {
       padding: 1rem;
-    justify-content: center;
+      justify-content: center;
   }
 
   video {
-    max-width:30%;
-    height:auto;
+      max-width: 30%;
+      height: auto;
   }
 
+  .design-list {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .web-dev {
+      display: flex;
+      max-width: 100%;
+  }
+
+  .dev-images>img {
+      max-width: 50%;
+      height: auto;
+  }
+
+  .dev-images {
+      margin: 20px;
+      padding: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+  }
 
   @media screen and (max-width: 600px) {
 
@@ -284,5 +311,15 @@
 
       .marketing-images>img {
           max-width: 100%;
+      }
+
+      .web-dev {
+          max-width: 100%;
+          display: inline;
+      }
+
+      .dev-images {
+          margin: .5rem;
+          padding: 1rem;
       }
   }
