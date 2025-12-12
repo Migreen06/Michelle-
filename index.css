@@ -248,6 +248,10 @@
       margin: 0 auto;
   }
 
+  #menu-toggle {
+      display: none;
+  }
+
   @media screen and (max-width: 600px) {
 
       .metrics,
@@ -289,8 +293,7 @@
           position: absolute;
       }
 
-      nav,
-      a {
+      nav a {
           color: black;
           font-size: 1.1em;
           display: block;
@@ -346,6 +349,10 @@
           margin: .5rem;
           padding: 1rem;
       }
+
+          #menu-toggle {
+              display: none;
+          }
 
       .subcat {
           display: inline;
