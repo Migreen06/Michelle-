@@ -248,9 +248,6 @@
       margin: 0 auto;
   }
 
-  #menu-toggle {
-      display: none;
-  }
 
  
 
@@ -356,45 +353,5 @@
       .subcat {
           display: inline;
       }
-
-
-
-
-        
-         
-    
-          /* Hamburger Icon */
-          .menu-icon {
-              display: flex;
-              flex-direction: column;
-              cursor: pointer;
-              width: 30px;
-              gap: 5px;
-          }
-    
-          .menu-icon span {
-              background-color: #333;
-              height: 4px;
-              border-radius: 2px;
-              transition:
-                  transform 0.3s,
-                  background-color 0.3s;
-          }
-                  #menu-toggle:checked~.menu {
-                      display: block;
-                  }
-        
-                  /* Animate Hamburger Icon */
-                  #menu-toggle:checked+.menu-icon span:nth-child(1) {
-                      transform: rotate(45deg) translateY(10px);
-                  }
-        
-                  #menu-toggle:checked+.menu-icon span:nth-child(2) {
-                      background-color: transparent;
-                  }
-        
-                  #menu-toggle:checked+.menu-icon span:nth-child(3) {
-                      transform: rotate(-45deg) translateY(-10px);
-                  }
 
   }
