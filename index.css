@@ -161,6 +161,7 @@
       max-width: 40%;
       height: auto;
       align-content: center;
+      vertical-align: middle;
   }
 
   .screenshots {
