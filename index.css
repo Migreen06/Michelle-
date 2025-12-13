@@ -351,7 +351,6 @@
       }
 
 
-
       #menu-toggle:checked+label+nav {
           display: block;
       }
@@ -362,7 +361,7 @@
           background-color: green;
           font-size: 1em;
           border: none;
-          padding: 10px 15px;
+          padding: 15px 15px;
       }
 
   }
