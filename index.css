@@ -347,7 +347,9 @@
           padding: 1rem;
       }
 
-
+.menu:focus-within nav {
+    display: block;
+}
       .subcat {
           display: inline;
       }
