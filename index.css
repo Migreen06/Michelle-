@@ -359,10 +359,8 @@
           border: none;
       }
 
- nav>li {
+ li.a {
      color: white;
-     background-color: transparent;
-     text-decoration: none;
  }
 
 
