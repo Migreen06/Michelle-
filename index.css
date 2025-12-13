@@ -137,7 +137,7 @@
       color: white;
       display: flex;
       font-size: 22px;
-      justify-content: center;
+      justify-content: space-evenly;
   }
 
   .skill-list {
