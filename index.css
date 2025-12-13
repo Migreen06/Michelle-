@@ -299,7 +299,6 @@
           background-color: rgba(0, 20, 0, 0.80);
           display: none;
           width: 60%;
-          color: white;
           position: absolute;
           box-shadow: 8px 8px 10px 2px rgba(255, 255, 255, 0.5);
       }
@@ -307,6 +306,7 @@
       nav a {
           font-size: 1.1em;
           display: block;
+          color:white;
           padding: 5%;
           margin-left: 0px;
       }
