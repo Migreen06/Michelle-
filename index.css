@@ -353,6 +353,7 @@
       .dev-images {
           margin: .5rem;
           padding: 1rem;
+          display:block;
       }
 
 
