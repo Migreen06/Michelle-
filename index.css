@@ -292,6 +292,7 @@
           display: none;
           width: 60%;
           position: absolute;
+          box-shadow: 3px 3px 2px 0px #E2E2E2;
       }
 
       nav a {
