@@ -299,7 +299,8 @@
       nav a {
           font-size: 1.1em;
           display: block;
-          padding-bottom:5%;
+          padding:5%;
+          margin-left:0px;
       }
 
 
