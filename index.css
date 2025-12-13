@@ -251,7 +251,7 @@
    #menu-toggle {
     display:none;
    }
-input {
+label, input {
     display:none;
 }
 
@@ -361,6 +361,9 @@ input {
           display: block;
       }
 
+      label {
+        display:inline;
+      }
 
 
   }
