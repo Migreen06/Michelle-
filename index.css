@@ -173,6 +173,10 @@
       margin:5%;
   }
 
+.screenshots>img:hover {
+transform: scale(1.5);
+}
+
   .metrics {
       max-width: 100%;
       margin: 0 auto;
