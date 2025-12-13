@@ -288,11 +288,12 @@
       }
 
       nav {
-          background-color: rgba(0, 128, 0, .8);
+          background-color: rgba(12, 122, 12, 0.802);
           display: none;
           width: 60%;
           position: absolute;
-box-shadow: 3px 3px 25px 25px rgba(124, 128, 127, 0.01);      }
+          box-shadow: 3px 3px 25px 25px rgba(124, 128, 127, 0.01);
+      }
 
       nav a {
           font-size: 1.1em;
