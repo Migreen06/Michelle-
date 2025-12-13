@@ -22,6 +22,11 @@
       text-align: center;
   }
 
+  header>p {
+    text-align:center;
+    font-size: 18px;
+  }
+
   p {
       text-align: center;
       font-size: 22px;
