@@ -143,7 +143,6 @@
   .skill-list {
       display: flex;
       justify-content: center;
-      padding-left: 10%;
   }
 
   .marketing-images,
