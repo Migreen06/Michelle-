@@ -381,4 +381,17 @@
      height: auto;
  }
 
+.vidbox {
+    display: inline;
+    margin: 1rem;
+    max-width: 100%;
+    align-content: center;
+}
+
+video {
+    height: auto;
+    max-width: 100%;
+}
+
+
   }
