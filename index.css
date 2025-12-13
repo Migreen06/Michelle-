@@ -251,7 +251,9 @@
    #menu-toggle {
     display:none;
    }
-
+label {
+    display:none;
+}
 
   @media screen and (max-width: 600px) {
 
