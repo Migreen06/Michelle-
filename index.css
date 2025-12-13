@@ -10,7 +10,7 @@
   }
 
   header {
-      font-family:fantasy;
+      font-family: fantasy;
       background: green;
       color: black;
       text-align: center;
@@ -70,7 +70,7 @@
       text-align: left;
       font-size: 20px;
       font-weight: bold;
-      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   a:link {
@@ -161,8 +161,6 @@
   .screenshots>img {
       max-width: 40%;
       height: auto;
-      align-content: center;
-      vertical-align: middle;
   }
 
   .screenshots {
@@ -170,18 +168,20 @@
       flex-wrap: wrap;
       max-width: 100%;
       justify-content: space-bewteen;
-      margin:0% 8%;
+      margin: 0% 8%;
+      align-content: center;
+      vertical-align: middle;
+  }
   }
 
-.screenshots>img:hover {
-transform: scale(1.1);
-}
+  .screenshots>img:hover {
+      transform: scale(1.1);
+  }
 
   .metrics {
       max-width: 100%;
       padding-top: 1.5rem;
       display: flex;
-      justify-content: space-around;
   }
 
   .subcat {
@@ -296,7 +296,7 @@ transform: scale(1.1);
           background-color: rgba(0, 20, 0, 0.80);
           display: none;
           width: 60%;
-          color:white;
+          color: white;
           position: absolute;
           box-shadow: 8px 8px 10px 2px rgba(255, 255, 255, 0.5);
       }
@@ -304,8 +304,8 @@ transform: scale(1.1);
       nav a {
           font-size: 1.1em;
           display: block;
-          padding:5%;
-          margin-left:0px;
+          padding: 5%;
+          margin-left: 0px;
       }
 
 
