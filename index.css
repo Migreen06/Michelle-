@@ -348,4 +348,44 @@
           display: inline;
       }
 
+
+.custom-select {
+    position: relative;
+}
+
+.custom-select select {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #C4D1EB;
+    border-radius: 5px;
+    color: #14692F;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 3px 3px 2px 0px #E2E2E2;
+}
+
+.custom-select select:focus {
+    background: #000000;
+    border: 1px solid #48C768;
+    border-radius: 5px;
+}
+
+.custom-select::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: #14692F;
+    clip-path: polygon(8% 17%, 0% 25%, 50% 84%, 100% 25%, 92% 17%, 50% 65%);
+}
+
   }
