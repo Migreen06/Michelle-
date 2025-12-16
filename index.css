@@ -394,6 +394,7 @@ video {
 
 .web-dev {
     display: inline;
+    max-width:100%;
 }
 
 .dev-images>img {
