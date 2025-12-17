@@ -239,12 +239,9 @@
 }
 .dev-images>img {
     max-width:100%;
-    
 }
 
   .dev-images {
-      margin: 20px;
-      padding: 1rem;
       display: flex;
       flex-wrap: wrap;
   }
