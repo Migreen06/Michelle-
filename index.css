@@ -239,10 +239,10 @@
 }
 
 .dev-images>img:hover {
-    transform: scale(1.5);
-    transition-duration: 3s;
+    transform: scale(1.3);
+    transition-duration: 2s;
     animation: ease-in;
-    align-content: center;
+    translate:calc(10%);
 }
 
   .dev-images {
