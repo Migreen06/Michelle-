@@ -231,7 +231,7 @@
       max-width: 100%;
   }
 
-.dev-images>p {
+.dev-images > p {
     display:grid;
     color:white;
     font-size:40px;
