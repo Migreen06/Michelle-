@@ -238,6 +238,11 @@
     height:auto;
 }
 
+.dev-images>img:hover {
+    transform: scale(2);
+    align-content: center;
+}
+
   .dev-images {
    padding:2%; 
   }
