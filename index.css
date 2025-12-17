@@ -235,10 +235,7 @@
     color:white;
 }
 
-  .dev-images>img {
-      max-width: 50%;
-      height: auto;
-  }
+ 
 .above {
     display:grid;
 }
