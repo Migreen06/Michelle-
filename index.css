@@ -231,12 +231,7 @@
       max-width: 100%;
   }
 
-.web-dev>p {
-    color:white;
-    font-size:40px;
-    margin:0 auto;
-    text-align:center;
-}
+
 .dev-images>img {
     max-width:100%;
 }
