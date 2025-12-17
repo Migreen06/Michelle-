@@ -240,6 +240,8 @@
 
 .dev-images>img:hover {
     transform: scale(1.5);
+    transition-duration: 3s;
+    animation: ease-in;
     align-content: center;
 }
 
