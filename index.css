@@ -236,6 +236,7 @@
   .dev-images>img {
       max-width: 100%;
       height: auto;
+      display:flex;
   }
 
   .dev-images {
