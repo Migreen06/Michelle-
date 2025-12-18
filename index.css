@@ -23,8 +23,8 @@
   }
 
   header>p {
-    text-align:center;
-    font-size: 18px;
+      text-align: center;
+      font-size: 18px;
   }
 
   p {
@@ -147,7 +147,7 @@
   .skill-list {
       display: flex;
       justify-content: center;
-      color:white;
+      color: white;
   }
 
   .marketing-images,
@@ -213,7 +213,7 @@
 
   .vids {
       padding: 1rem;
-      justify-content: center;
+      justify-content: space-around;
   }
 
   video {
@@ -229,17 +229,17 @@
   .web-dev {
       display: flex;
       max-width: 100%;
-    justify-content: center;
+      justify-content: center;
   }
 
 
-.dev-images>img {
-    max-width:100%;
-    height:auto;
-}
+  .dev-images>img {
+      max-width: 100%;
+      height: auto;
+  }
 
   .dev-images {
-   padding:2%; 
+      padding: 2%;
   }
 
   .container {
@@ -274,8 +274,8 @@
       }
 
       .main {
-        max-width: 100%;
-        justify-items: center;
+          max-width: 100%;
+          justify-items: center;
       }
 
       .screenshots>img {
@@ -351,12 +351,12 @@
       .dev-images {
           margin: .5rem;
           padding: 1rem;
-          display:block;
+          display: block;
       }
 
-.skill-list {
-    font-size:18px;
-}
+      .skill-list {
+          font-size: 18px;
+      }
 
       .subcat {
           display: inline;
@@ -374,35 +374,36 @@
           border: none;
       }
 
- .dev-images>img {
-     max-width: 100%;
-     height: auto;
- }
+      .dev-images>img {
+          max-width: 100%;
+          height: auto;
+      }
 
-.vidbox {
-    display: inline;
-    margin: 1rem;
-    max-width: 100%;
-    align-content: center;
-}
+      .vidbox {
+          display: inline;
+          margin: 1rem;
+          max-width: 100%;
+          align-content: center;
+      }
 
-video {
-    height: auto;
-    max-width: 100%;
-}
+      video {
+          height: auto;
+          max-width: 100%;
+          vertical-align: middle;
+      }
 
-.web-dev {
-    display: inline;
-    max-width:100%;
-}
+      .web-dev {
+          display: inline;
+          max-width: 100%;
+      }
 
-.dev-images>img {
-    max-width: 100%;
-}
+      .dev-images>img {
+          max-width: 100%;
+      }
 
-.dev-images {
-    margin: 0px;
-    display: inline;
-}
+      .dev-images {
+          margin: 0px;
+          display: inline;
+      }
 
   }
