@@ -242,6 +242,7 @@
   .dev-images {
       padding: 2%;
       display:flex;
+            flex-wrap: wrap;
             max-width: 100%;
   }
 
