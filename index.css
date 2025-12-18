@@ -101,6 +101,13 @@
       font-size: 20px;
   }
 
+
+   .gif-gallery {
+       justify-items: space-around;
+       display: flex;
+       max-width: 100%;
+   }
+
   .gif-gallery>img {
       align-items: center;
       max-width: 100%;
