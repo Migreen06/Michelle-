@@ -264,6 +264,10 @@
       display: none;
   }
 
+.banners {
+    max-width: 50%;
+    display:flex;
+}
 
   @media screen and (max-width: 600px) {
 
