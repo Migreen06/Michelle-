@@ -237,6 +237,7 @@
   .dev-images>img {
       max-width: 50%;
       height: auto;
+      padding:2%
   }
 
   .dev-images {
