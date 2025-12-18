@@ -360,23 +360,6 @@
           max-width: 100%;
       }
 
-      .web-dev {
-          display: inline;
-      }
-
-      .dev-images {
-          margin: .5rem;
-          padding: 1rem;
-          display: block;
-      }
-
-
-      .dev-images>img {
-          max-width: 100%;
-      }
-
-
-
 
       .skill-list {
           font-size: 18px;
@@ -406,26 +389,9 @@
           max-width: 100%;
           height: auto;
       }
-
-      .vidbox {
-          display: inline;
-          margin: 1rem;
-          max-width: 100%;
-          align-content: center;
-      }
-
-      video {
-          height: auto;
-          max-width: 100%;
-          vertical-align: middle;
-      }
-
+  
       .web-dev {
           display: inline;
-          max-width: 100%;
-      }
-
-      .dev-images>img {
           max-width: 100%;
       }
 
@@ -446,6 +412,17 @@
           max-width: 100%;
       }
 
-
+          .vidbox {
+              display: inline;
+              margin: 1rem;
+              max-width: 100%;
+              align-content: center;
+          }
+    
+          video {
+              height: auto;
+              max-width: 100%;
+              vertical-align: middle;
+          }
 
   }
