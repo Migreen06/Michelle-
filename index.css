@@ -321,7 +321,7 @@ h3 {
 
 .fullpage {
     max-width:100%;
-    display:block;
+    margin-left:10%;
 }
 
 .fullpage>img {
