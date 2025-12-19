@@ -304,7 +304,7 @@
 
 .fullpage-images {
     max-width:80%;
-    display:block;
+    display:grid;
     padding: 0px 10px;
 }
 .fullpage {
