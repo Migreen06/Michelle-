@@ -298,6 +298,7 @@
 }
 
 .webpage-images p{
+    padding-top:2%;
     display:grid;
     max-width:50%;
 }
