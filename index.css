@@ -297,6 +297,7 @@
 .webpage {
     display:flex;
     max-width:100%;
+    align-content: center;
 }
 
 
