@@ -1,6 +1,10 @@
  @keyframes slide {
-    from {transform: translate(0px)};
-    to {transform: translate(100px)};
+    from {
+        transform: translate(0px);
+    }
+    to {
+        transform: translate(100px);
+    }
  }
  
  * {
