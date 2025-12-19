@@ -321,7 +321,8 @@ h3 {
 
 
 .fullpage {
-    max-width: 60%;
+    max-width: 600px;
+    height:auto;
 }
 
 
