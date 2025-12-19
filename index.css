@@ -300,6 +300,9 @@
     justify-content: center;
 }
 
+.webpage-images>img {
+    max-width:100%;
+}
 
 .webpage-images p{
     display:grid;
