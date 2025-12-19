@@ -1,4 +1,4 @@
- @keyframes headings {
+ @keyframes slide {
     from {translatex:0};
     to {translatex:100px};
  }
@@ -23,7 +23,7 @@
   }
 
   h1 {
-    animation: headings 3s 1;
+    animation: slide 3s 1;
       font-size: 36px;
       text-align: center;
   }
