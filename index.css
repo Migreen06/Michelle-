@@ -1,9 +1,9 @@
  @keyframes expand {
     0% {
-        traansform: scale(1);
+        traansform: scale(0);
     }
     100% {
-        transform: scale(1.5);
+        transform: scale(1);
     }
  }
  
