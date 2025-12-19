@@ -302,9 +302,15 @@
     max-width:50%;
 }
 
-.fullpage {
+.fullpage-images {
     max-width:80%;
+    display:block;
     padding: 0px 10px;
+}
+.fullpage {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
 }
 
 
