@@ -321,12 +321,13 @@ h3 {
 
 .fullpage {
     max-width:100%;
-    margin-left:10%;
+    display:grid;
 }
 
 .fullpage>img {
     max-width: 600px;
     height:auto;
+    margin:0 auto;
 }
 
 
