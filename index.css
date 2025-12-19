@@ -300,8 +300,8 @@
 }
 
 
-.webpage-images {
-    display:flex;
+.webpage-images p{
+    display:grid;
     max-width:50%;
 }
 
