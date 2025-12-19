@@ -297,11 +297,14 @@
     max-width:100%;
 }
 
+h3 {
+    color:white;
+}
+
 .webpage-images p{
     padding-top:2%;
     display:grid;
     max-width:50%;
-    color:white;
 }
 
 .fullpage-images>img {
