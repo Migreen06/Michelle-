@@ -27,7 +27,7 @@
   }
 
   h1 {
-    animation: expand 1s ease-in;
+    animation: expand .5s ease;
       font-size: 36px;
       text-align: center;
   }
