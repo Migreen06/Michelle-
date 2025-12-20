@@ -484,4 +484,14 @@ h3 {
     max-width: 50%;
 }
 
+.fullpage {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.fullpage>img {
+    max-width: 100%;
+    height: auto;
+}
+
   }
