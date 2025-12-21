@@ -122,6 +122,7 @@
      align-items: center;
      max-width: 100%;
      height: auto;
+     justify-items:center;
      padding: .5rem;
  }
 
