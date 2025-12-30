@@ -337,6 +337,8 @@
  }
 
  .fullpage>h3 {
+    margin:auto;
+    max-width:75%;
     background-color:darkgreen;
  }
 
@@ -344,6 +346,11 @@
     font-size:35px;
     padding-bottom:2em;
  }
+
+
+
+
+ 
  @media screen and (max-width: 600px) {
 
      .metrics,
