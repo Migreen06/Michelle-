@@ -316,12 +316,12 @@
  }
 
  .fullpage {
-     max-width: 90%;
+     max-width: 100%;
      display: grid;
  }
 
  .fullpage>img {
-     width: 15em;
+     width: 25em;
      height: auto;
      margin: 0 auto;
  }
