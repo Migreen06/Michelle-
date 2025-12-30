@@ -324,9 +324,9 @@
  }
 
  .fullpage>img {
-     width: 900px;
+     max-width: 100%;
      height: auto;
-     margin: 0 auto;
+     margin: auto;
  }
 
  .fullpage>h3 {
