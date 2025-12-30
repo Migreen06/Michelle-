@@ -332,10 +332,11 @@
  .fullpage>h3 {
     margin:auto;
     max-width:75%;
+    color:black;
     font-size:25px;
     border-radius:10px;
     padding:20px;
-    background-color:darkgreen;
+    background-color:gray;
  }
 
  .fullpage>h2 {
