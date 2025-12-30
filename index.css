@@ -237,6 +237,7 @@
  .design-list {
      display: flex;
      justify-content: space-around;
+     margin:auto;
  }
 
  .web-dev {
