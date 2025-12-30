@@ -38,7 +38,7 @@
  }
 
  .second-word {
-    display:inline-block;
+    display:inline;
      animation: slide 3s ease-in;
      font-size: 36px;
      text-align: center;
