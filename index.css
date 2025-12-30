@@ -31,12 +31,14 @@
  }
 
  .first-word {
+    display:inline-block;
      animation: slide2 3s ease-in;
      font-size: 36px;
      text-align: center;
  }
 
  .second-word {
+    display:inline-block;
      animation: slide 3s ease-in;
      font-size: 36px;
      text-align: center;
