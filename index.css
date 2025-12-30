@@ -10,7 +10,7 @@
 
  @keyframes slide {
      0% {
-         transform: translatex(100%);
+         transform: translatex(50%);
      }
 
      100% {
@@ -19,11 +19,11 @@
  }
  @keyframes slide2 {
      0% {
-         transform: translatex(-500px);
+         transform: translatex(0%);
      }
 
      100% {
-         transform: translatex(5%);
+         transform: translatex(100%);
      }
  }
  * {
