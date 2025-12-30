@@ -10,11 +10,11 @@
 
  @keyframes slide {
      0% {
-         transform: translatex(10px)
+         transform: translatex(0%)
      }
 
      100% {
-         transform: translatex(300px);
+         transform: translatex(100%);
      }
  }
 
@@ -350,7 +350,7 @@
 
 
 
- 
+
  @media screen and (max-width: 600px) {
 
      .metrics,
