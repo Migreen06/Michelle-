@@ -332,6 +332,7 @@
  .fullpage>h3 {
     margin:auto;
     max-width:75%;
+    font-size:25px;
     border-radius:10px;
     padding:20px;
     background-color:darkgreen;
