@@ -218,11 +218,14 @@
 
  .vids {
      justify-content: space-around;
+
  }
 
  video {
      max-height: 300px;
      width: auto;
+        vertical-align: middle;
+        margin:auto;
  }
 
  .design-list {
