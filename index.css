@@ -94,13 +94,13 @@
  }
 
  a:link {
-     color: green;
+     color: darkgreen;
      text-decoration: none;
  }
 
 
  a:visited {
-     color: green;
+     color: darkgreen;
      background-color: transparent;
      text-decoration: none;
  }
