@@ -339,14 +339,12 @@
  }
 
 
-.subcat > *:hover {
-    transform: scaley(1em);
+.category > img:hover {
         transform: translatey(.5em);
         transition: all 0.3s ease-in-out;
 }
 
 .grid-item:hover {
-    transform:scaley(1em);
     transform:translatey(.5em);
     transition: all 0.3s ease-in-out;
 }
