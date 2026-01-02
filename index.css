@@ -211,22 +211,20 @@
  .vidbox {
      display: flex;
      flex-wrap: wrap;
-     max-width: 100%;
-     margin:auto;
-     align-content: center;
      justify-content: space-around;
  }
 
  .vids {
      justify-content: space-around;
-     width:100%;
+    max-width:100%;
      margin:0 auto;
-
+     display:flex;
+        flex-wrap: wrap;
  }
 
  video {
      max-height: 300px;
-        vertical-align: middle;
+    vertical-align: middle;
  }
 
  .design-list {
