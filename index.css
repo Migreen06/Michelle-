@@ -339,6 +339,11 @@
  }
 
 
+.category>img:hover {
+    transform: scaley(1em);
+        transform: translatey(.5em);
+        transition: all 0.3s ease-in-out;
+}
 
 .grid-item:hover {
     transform:scaley(1em);
