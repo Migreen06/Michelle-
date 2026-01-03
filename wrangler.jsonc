@@ -5,13 +5,5 @@
 
   "assets": {
     "directory": "/"
-  },
-
-  "kv_namespaces": [
-    {
-      "binding": "KV_BINDING",
-      "id": "f5b9998e03fb41bc9a6d0d6da97c86a3",
-      "remote": true
-    }
-  ]
+  }
 }
