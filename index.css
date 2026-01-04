@@ -17,6 +17,7 @@
      animation: expand 2s ease-in;
      font-size: 36px;
      text-align: center;
+     color:white;
  }
 
 
@@ -94,13 +95,13 @@
  }
 
  a:link {
-     color: darkgreen;
+     color: white;
      text-decoration: none;
  }
 
 
  a:visited {
-     color: darkgreen;
+     color: white;
      background-color: transparent;
      text-decoration: none;
  }
