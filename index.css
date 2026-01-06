@@ -99,7 +99,7 @@
      text-decoration: none;
  }
 
-nav>a:visited {
+li>a:visited {
     color:white;
 }
 
