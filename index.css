@@ -186,7 +186,7 @@ nav>a {
      display: flex;
      flex-wrap: wrap;
      max-width: 100%;
-     justify-content: space-between;
+     justify-content: space-around;
      margin: 0% 6%;
      align-content: center;
      vertical-align: middle;
