@@ -112,8 +112,9 @@ li>a:visited {
  .main {
      display: flex;
      flex-wrap: wrap;
-     max-width: 100%;
-     justify-content: space-around;
+     max-width: 95%;
+     margin:auto;
+     justify-content: center;
  }
 
  ul {
