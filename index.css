@@ -384,6 +384,11 @@ nav>a {
          display: none;
      }
 
+         .subcat>*:hover {
+            display:none;
+         }
+
+
      .header {
          background-color: darkgreen;
      }
