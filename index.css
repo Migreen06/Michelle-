@@ -359,10 +359,6 @@
      transition: all 0.3s ease-in-out;
  }
 
- .grid-item:hover {
-     transform: translatey(.5em);
-     transition: all 0.3s ease-in-out;
- }
 
 
 
