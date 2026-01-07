@@ -103,6 +103,10 @@ li>a:link {
     color:white;
 }
 
+li>a {
+    color:white;
+}
+
  a:visited {
      color: green;
      background-color: transparent;
