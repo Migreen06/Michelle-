@@ -194,7 +194,7 @@
      flex-wrap: wrap;
      max-width: 100%;
      justify-content: space-around;
-     margin: 0% 6%;
+     margin: 0% 4%;
      align-content: center;
      vertical-align: middle;
  }
@@ -353,10 +353,6 @@
      transition: all 0.3s ease-in-out;
  }
 
- .marketing-images>img:hover {
-     transform: scale(1.1em);
-     transition: all 0.3s ease-in-out;
- }
 
 
 
