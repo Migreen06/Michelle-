@@ -21,6 +21,11 @@
       },
       "placement": {
           "mode": "smart"
-      }
+      },
+      "compatibility_flags": [
+        "enable_nodejs_process_v2",
+        "enable_nodejs_http_server_modules",
+        "enable_nodejs_http_modules"
+      ]
     }
   }
