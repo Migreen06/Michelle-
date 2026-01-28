@@ -126,15 +126,15 @@
 
 
  .gif-gallery {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+     width: 100%;
+     margin: auto;
+     display: flex;
+     flex-wrap: wrap;
  }
 
 
  .gif-gallery>img {
-     margin:auto;
+     margin: auto;
      height: 300px;
      padding: .2rem;
  }
@@ -350,7 +350,6 @@
      padding-bottom: 1.5em;
  }
 
-
  .subcat>*:hover {
      transform: translatey(.5em);
      transition: all 0.3s ease-in-out;
@@ -361,9 +360,6 @@
 
 
  @media screen and (max-width: 600px) {
-
-
-
      .header {
          background-color: darkgreen;
      }
@@ -550,5 +546,4 @@
          max-width: 100%;
          align-content: center;
      }
-
  }
