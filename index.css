@@ -252,8 +252,14 @@
      max-width: 100%;
      justify-content: space-around;
      flex-wrap: wrap;
-     overflow:hidden;
+    margin: auto;
  }
+
+.dev-labels {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
 
 
  .dev-images>img {
