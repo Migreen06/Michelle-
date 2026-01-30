@@ -252,8 +252,7 @@
      max-width: 100%;
      justify-content: space-around;
      flex-wrap: wrap;
-     color:white;
-     text-align:center;
+     overflow:hidden;
  }
 
 
@@ -268,6 +267,8 @@
      display: flex;
      flex-wrap: wrap;
      max-width: 100%;
+    color: white;
+        text-align: center;
      align-items: stretch;
  }
 
