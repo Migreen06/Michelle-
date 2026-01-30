@@ -263,7 +263,7 @@
     display:grid;
 }
 
- .dev-images {
+ .dev-images>img {
      max-width: 50%;
      height: auto;
      padding: 2%;
