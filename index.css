@@ -14,7 +14,7 @@
  }
 
  h1 {
-     animation: expand 2s ease-in;
+     animation: expand 1.5s ease-in;
      font-size: 36px;
      text-align: center;
  }
@@ -209,7 +209,7 @@
  }
 
  .subcat {
-    animation: expand 2s ease-in;
+    animation: expand 1.5s ease-in;
      margin: 1rem;
      display: flex;
      margin-top: 5%;
