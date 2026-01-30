@@ -209,6 +209,7 @@
  }
 
  .subcat {
+    animation: expand 2s ease-in;
      margin: 1rem;
      display: flex;
      margin-top: 5%;
