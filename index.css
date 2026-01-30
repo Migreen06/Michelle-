@@ -247,12 +247,17 @@
      margin: auto;
  }
 
- .web-dev, .dev-images {
+ .web-dev {
      display: flex;
      max-width: 100%;
      justify-content: space-around;
      flex-wrap: wrap;
     margin: auto;
+ }
+
+.dev-images {
+    display: flex;
+    flex-wrap: wrap;
  }
 
 .dev-labels {
