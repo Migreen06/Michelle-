@@ -247,7 +247,7 @@
      margin: auto;
  }
 
- .web-dev {
+ .web-dev, .dev-images {
      display: flex;
      max-width: 100%;
      justify-content: space-around;
