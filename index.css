@@ -262,20 +262,12 @@
     display:grid;
 }
 
-
  .dev-images>img {
-     max-width: 45%;
+     max-width: 50%;
      height: auto;
      padding: 2%;
  }
 
- .dev-images {
-     padding: 2%;
-     display: flex;
-     flex-wrap: wrap;
-     max-width: 45%;
-     align-items: stretch;
- }
 
  .container {
      max-width: 600px;
