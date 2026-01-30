@@ -252,6 +252,8 @@
      max-width: 100%;
      justify-content: space-around;
      flex-wrap: wrap;
+     color:white;
+     text-align:center;
  }
 
 
