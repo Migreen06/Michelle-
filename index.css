@@ -33,6 +33,7 @@
      text-align: center;
      color: white;
      padding: 30px;
+    animation: expand 2s ease-in;
  }
 
 
