@@ -13,9 +13,13 @@
      box-sizing: border-box;
  }
 
+ @keyframes textclip {
+     to {
+         background-position: 200% center;
+     } }
+
  h1 {
-     animation: expand 1.5s ease-in;
-     font-size: 36px;
+    animation: textclip 2s linear infinite;    font-size: 36px;
      text-align: center;
  }
 
