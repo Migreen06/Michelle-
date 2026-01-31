@@ -270,6 +270,7 @@
 
  .dev-images>img {
      max-width: 100%;
+    justify-content: stretch;
      height: auto;
      padding: 2%;
  }
