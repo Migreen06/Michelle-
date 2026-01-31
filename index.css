@@ -257,9 +257,7 @@
 
 .dev-images {
     max-width:50%;
-    align-items: stretch;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    justify-content: space-around;
+    justify-content: center;
  }
 
 .dev-labels {
@@ -272,9 +270,6 @@
 
  .dev-images>img {
      max-width: 100%;
-    justify-content: stretch;
-     height: auto;
-    align-items: stretch;
      padding: 2%;
  }
 
