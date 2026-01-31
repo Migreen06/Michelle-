@@ -258,18 +258,21 @@
 .dev-images {
     max-width:50%;
     justify-content: center;
+    align-items: center;
  }
 
 .dev-labels {
     padding-top:2%;
     color: white;
     text-align: center;
+    align-items: center;
     font-size: 20px;
     display:grid;
 }
 
  .dev-images>img {
      width: 100%;
+    align-items: center;
      height:300px;
      padding: 2%;
      display:flex;
