@@ -15,16 +15,16 @@
 
  @keyframes reveal {
      0% {
-         transform: scaleX(1);
+         transform: scaleX(0);
      }
 
      100% {
-         transform: scaleX(0);
+         transform: scaleX(1);
      }
  }
  
  h1 {
-     animation: reveal 1.5s ease-in;
+     animation: reveal 1.5s ease-forwards;
      font-size: 36px;
      text-align: center;
  }
@@ -70,7 +70,7 @@
      font-size: 1.8rem;
      margin-top: 10px;
      color: white;
-    animation: reveal 1.5s ease-in;
+    animation: reveal 1.5s ease-forwards;
  }
 
 
