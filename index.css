@@ -483,15 +483,30 @@
          border: none;
      }
 
+         .web-dev {
+             display: flex;
+             max-width: 100%;
+         }
+    
+    
+         .dev-labels {
+             padding-top: 3%;
+             color: white;
+             text-align: center;
+             font-size: 20px;
+             display: grid;
+         }
+    
      .dev-images>img {
-         max-width: 100%;
          height: auto;
+         width:100%;
      }
 
 
      .dev-images {
          margin: 0px;
          display: inline;
+         max-width:100%;
      }
 
      .banner-box {
