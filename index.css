@@ -501,7 +501,7 @@
 
      .dev-images {
          margin: 0px;
-         display: inline;
+         display: inline-flex;
          max-width:100%;
      }
 
