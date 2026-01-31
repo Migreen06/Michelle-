@@ -252,10 +252,12 @@
      max-width: 100%;
      justify-content: center;
      flex-wrap: wrap;
+    vertical-align: middle;
  }
 
 .dev-images {
     max-width:50%;
+    vertical-align:middle;
     justify-content: center;
  }
 
