@@ -251,6 +251,7 @@
      display: flex;
      max-width: 100%;
      justify-content: center;
+    align-items: stretch;
      flex-wrap: wrap;
  }
 
