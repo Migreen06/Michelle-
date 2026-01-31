@@ -272,8 +272,9 @@
 
  .dev-images>img {
     align-items: center;
-     height:300px;
      padding: 2%;
+     height:auto;
+     max-width: 100%;
      display:flex;
  }
 
