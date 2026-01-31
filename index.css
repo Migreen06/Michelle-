@@ -270,13 +270,15 @@
     display:grid;
 }
 
- .dev-images>img {
-    align-items: center;
-     padding: 2%;
-     height:auto;
-     max-width: 100%;
-     display:flex;
- }
+.dev-images>img {
+    padding: 2%;
+    height: 300px;
+    max-width: 100%;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 
  .container {
