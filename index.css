@@ -268,9 +268,8 @@
 }
 
  .dev-images>img {
-     width: 100%;
-     object-fit: contain;
-     height:400px;
+     max-width: 100%;
+     height:auto;
      padding: 2%;
  }
 
