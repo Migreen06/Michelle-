@@ -269,7 +269,7 @@
 }
 
  .dev-images>img {
-     max-width: 100%;
+     width: 100%;
      object-fit: contain;
      height:400px;
      padding: 2%;
@@ -484,16 +484,12 @@
      }
 
          .web-dev {
-             display: flex;
+             display: inline;
              max-width: 100%;
          }
     
     
          .dev-labels {
-             padding-top: 3%;
-             color: white;
-             text-align: center;
-             font-size: 20px;
              display: grid;
          }
     
