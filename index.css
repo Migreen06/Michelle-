@@ -489,7 +489,8 @@
     
     
          .dev-labels {
-             display: grid;
+             display: flex;
+             flex-direction: column;
          }
     
      .dev-images>img {
