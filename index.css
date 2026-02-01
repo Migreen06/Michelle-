@@ -281,11 +281,9 @@
 
 .dev-images>img {
     padding: 2%;
-    height: 400px;
     max-width: 100%;
     align-content: center;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
