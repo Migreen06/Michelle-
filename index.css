@@ -261,7 +261,6 @@
  .web-dev {
      display: flex;
      max-width: 100%;
-     justify-content: space-evenly;
      flex-wrap: wrap;
     align-items: center;
     }
@@ -283,7 +282,7 @@
 
 .dev-images>img {
     padding: 2%;
-    height: 300px;
+    height: 400px;
     max-width: 100%;
     align-content: center;
     display: flex;
