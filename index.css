@@ -217,11 +217,11 @@
      justify-content: space-around;
      margin: 0% 4%;
      align-content: center;
-     vertical-align: middle;
  }
 
  .metrics {
      max-width: 100%;
+    justify-content: space-around;
      padding-top: 1.5rem;
      display: flex;
  }
