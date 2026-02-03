@@ -455,7 +455,7 @@
          font-size: 1.1em;
          color: white;
          display: block;
-         line-height: 1em;
+         line-height: 2em;
          padding: 5%;
          margin-left: 0px;
      }
@@ -499,6 +499,7 @@
 
      .subcat {
          display: inline;
+         font-size:18px;
      }
 
 
