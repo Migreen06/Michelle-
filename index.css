@@ -94,8 +94,15 @@
      background-color: black;
      color: green;
      font-size: 25px;
+     font-weight:bold;
+    animation: reveal 1.5s ease forwards;
      text-align: center;
  }
+
+ .grid-item>img {
+    animation: reveal 1.5s ease forwards;
+ }
+
 
  .menu {
      text-align: left;
@@ -380,6 +387,9 @@
      transform: translatey(.5em);
      transition: all 0.3s ease-in-out;
  }
+
+
+
 
 
  @media screen and (max-width: 600px) {
