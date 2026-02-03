@@ -413,7 +413,7 @@
          justify-items: center;
      }
 
-     .screenshots>img {
+     .screenshots {
          max-width: 100%;
          display:flex;
          flex-direction:column;
