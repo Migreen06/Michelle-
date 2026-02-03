@@ -442,7 +442,7 @@
      }
 
      nav {
-         background-color: rgba(1, 43, 1, 0.9);
+         background-color: rgb(1, 43, 1);
          display: none;
          color: white;
          width: 60%;
@@ -454,6 +454,7 @@
          font-size: 1.1em;
          color: white;
          display: block;
+         line-height: 1em;;
          padding: 5%;
          margin-left: 0px;
      }
