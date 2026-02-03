@@ -499,9 +499,11 @@
 
      .subcat {
          display: inline;
-         font-size:25px;
      }
 
+.subcat>h2 {
+    font-size: 25px;
+}
 
      #menu-toggle:checked+label+nav {
          display: block;
