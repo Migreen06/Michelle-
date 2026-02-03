@@ -227,8 +227,8 @@
  }
 
  .subcat {
-    animation: expand 1.5s ease-in;
-     margin: 1rem;
+    animation: reveal 1.5s ease forwards;
+    margin: 1rem;
      display: flex;
      margin-top: 5%;
      justify-content: space-evenly;
@@ -390,7 +390,7 @@
 
  .grid-item > img:hover {
     transform: translatey(.5em);
-        transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
  }
 
 
