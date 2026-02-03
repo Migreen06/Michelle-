@@ -597,7 +597,7 @@
      }
 
      .grid-container {
-         display: inline;
+         display: inline-flex;
          max-width: 100%;
          align-content: center;
      }
