@@ -4,94 +4,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pure CSS Video Carousel</title>
+    <title>CSS Only Carousel</title>
     <style>
         body {
-            margin: 0;
             font-family: sans-serif;
-            background: #111;
-            color: white;
+            background: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            padding: 50px;
         }
 
         .carousel {
-            display: flex;
-            overflow-x: auto;
-            scroll-snap-type: x mandatory;
-            -webkit-overflow-scrolling: touch;
-            scroll-behavior: smooth;
-            gap: 1rem;
-            padding: 1rem;
+            position: relative;
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
 
-        .carousel::-webkit-scrollbar {
+        /* Hide radio buttons */
+        input[type="radio"] {
             display: none;
         }
 
-        .carousel-item {
-            flex: 0 0 80%;
-            scroll-snap-align: center;
-            background: #000;
-            border-radius: 10px;
-            overflow: hidden;
-            position: relative;
+        .slides {
+            display: flex;
+            width: 300%;
+            height: 100%;
             transition: transform 0.5s ease;
-
         }
 
-        video {
+        .slide {
             width: 100%;
-            height: auto;
-            display: block;
+            flex-shrink: 0;
         }
 
-        .carousel-item {
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        .slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Navigation dots */
+        .nav {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 8px;
+        }
+
+        .nav label {
+            width: 12px;
+            height: 12px;
+            background: #ddd;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        input#slide1:checked~.slides {
+            transform: translateX(0%);
+        }
+
+        input#slide2:checked~.slides {
+            transform: translateX(-100%);
+        }
+
+        input#slide3:checked~.slides {
+            transform: translateX(-200%);
+        }
+
+        input#slide1:checked~.nav label[for="slide1"],
+        input#slide2:checked~.nav label[for="slide2"],
+        input#slide3:checked~.nav label[for="slide3"] {
+            background: #333;
         }
     </style>
 </head>
 
 <body>
 
-
     <div class="carousel">
-        <div class="carousel-item">
-            <video controls preload="metadata">
-                <source src="videos/BrownSugarPremiumGuitarandBass.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-            </video>
+        <!-- Radio buttons for slides -->
+        <input type="radio" name="slides" id="slide1" checked>
+        <input type="radio" name="slides" id="slide2">
+        <input type="radio" name="slides" id="slide3">
+
+        <div class="slides">
+            <div class="slide"><img src="videos/BrownSugarPremiumGuitarandBass.mp4" alt="Slide 1"></div>
+            <div class="slide"><img src="videos/featherweightbodies.mp4" alt="Slide 2"></div>
+            <div class="slide"><img src="videos/finished true tune (1).mp4" alt="Slide 3"></div>
         </div>
-        <div class="carousel-item">
-            <video controls preload="metadata">
-                <source src="videos/featherweightbodies.mp4 type=" video/mp4">
-                Your browser does not support HTML5 video.
-            </video>
-        </div>
-        <div class="carousel-item">
-            <video controls preload="metadata">
-                <source src="videos/finished true tune (1).mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-            </video>
-        </div>
-        <div class="carousel-item">
-            <video controls preload="metadata">
-                <source src="videos/Finishedfeatherweight0square.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-            </video>
-        </div>
-        <div class="carousel-item">
-            <video controls preload="metadata">
-                <source src="videos/laptop drop off smaller.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-            </video>
-        </div>
-        <div class="carousel-item">
-            <video controls preload="metadata">
-                <source src="videos/neck video.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-            </video>
+
+        <!-- Navigation dots -->
+        <div class="nav">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
         </div>
     </div>
 
 </body>
 
 </html>
+
