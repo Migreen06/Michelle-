@@ -12,7 +12,7 @@
             background: #111;
             color: white;
         }
-    
+
         .carousel {
             display: flex;
             overflow-x: auto;
@@ -22,37 +22,34 @@
             gap: 1rem;
             padding: 1rem;
         }
-    
+
         .carousel::-webkit-scrollbar {
             display: none;
-            /* Hide scrollbar for cleaner look */
         }
-    
+
         .carousel-item {
             flex: 0 0 80%;
-            /* Each video takes 80% of viewport width */
             scroll-snap-align: center;
             background: #000;
             border-radius: 10px;
             overflow: hidden;
             position: relative;
         }
-    
+
         video {
             width: 100%;
             height: auto;
             display: block;
         }
-    
-        /* Optional: Add a shadow effect */
+
         .carousel-item {
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);     }
-        </style>
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+    </style>
 </head>
 
 <body>
 
-    <h2 style="text-align:center; padding:1rem;">Video</h2>
 
     <div class="carousel">
         <div class="carousel-item">
@@ -63,7 +60,7 @@
         </div>
         <div class="carousel-item">
             <video controls preload="metadata">
-                <source src="videos/featherweightbodies.mp4 type="video/mp4">
+                <source src="videos/featherweightbodies.mp4 type=" video/mp4">
                 Your browser does not support HTML5 video.
             </video>
         </div>
@@ -96,4 +93,3 @@
 </body>
 
 </html>
-
