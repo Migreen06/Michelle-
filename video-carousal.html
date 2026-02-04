@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: sans-serif;
-            background: #f4f4f4;
+            background: black;
             display: flex;
             justify-content: center;
             padding: 50px;
@@ -16,8 +16,8 @@
 
         .carousel {
             position: relative;
-            width: 300px;
-            height: 200px;
+            max-width: 300px;
+            height: auto;
             overflow: hidden;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -30,8 +30,8 @@
 
         .slides {
             display: flex;
-            width: 300%;
-            height: 100%;
+            max-width: 300%;
+            height: auto;
             transition: transform 0.5s ease;
         }
 
@@ -41,9 +41,9 @@
         }
 
         .slide img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
         }
 
         /* Navigation dots */
@@ -59,7 +59,7 @@
         .nav label {
             width: 12px;
             height: 12px;
-            background: #ddd;
+            background: black;
             border-radius: 50%;
             cursor: pointer;
             transition: background 0.3s;
