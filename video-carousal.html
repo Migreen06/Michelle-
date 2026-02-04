@@ -30,20 +30,20 @@
 
         .slides {
             display: flex;
-            width: 300px;
+            width: 500px;
             height: auto;
             transition: transform 0.5s ease;
         }
 
         .slide {
-            width: 100%;
+            width: 500px;
             flex-shrink: 0;
         }
 
         .slide video {
-            max-width: 100%;
+            width: 500px;
             height: auto;
-            object-fit: contain;
+            object-fit: fill;
         }
 
         /* Navigation dots */
@@ -59,7 +59,7 @@
         .nav label {
             width: 12px;
             height: 12px;
-            background: gray;
+            background: white;
             border-radius: 50%;
             cursor: pointer;
             transition: background 0.3s;
