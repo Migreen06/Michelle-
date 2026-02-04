@@ -9,46 +9,45 @@
         body {
             margin: 0;
             font-family: sans-serif;
-            background: black;
+            background: #111;
             color: white;
         }
-
+    
         .carousel {
             display: flex;
             overflow-x: auto;
             scroll-snap-type: x mandatory;
             -webkit-overflow-scrolling: touch;
+            scroll-behavior: smooth;
             gap: 1rem;
             padding: 1rem;
         }
-
+    
         .carousel::-webkit-scrollbar {
             display: none;
+            /* Hide scrollbar for cleaner look */
         }
-
+    
         .carousel-item {
             flex: 0 0 80%;
-            /* Adjust width of each video */
+            /* Each video takes 80% of viewport width */
             scroll-snap-align: center;
             background: #000;
-            border-radius: 8px;
+            border-radius: 10px;
             overflow: hidden;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            position: relative;
         }
-
+    
         video {
             width: 100%;
             height: auto;
             display: block;
         }
-
-        @media (min-width: 768px) {
-            .carousel-item {
-                flex: 0 0 40%;
-                /* Show more videos on larger screens */
-            }
-        }
-    </style>
+    
+        /* Optional: Add a shadow effect */
+        .carousel-item {
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);     }
+        
 </head>
 
 <body>
