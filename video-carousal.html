@@ -25,12 +25,13 @@
 
         /* Hide radio buttons */
         input[type="radio"] {
-            display: none;
+            display: inline;
         }
 
         .slides {
             display: flex;
             width: 500px;
+            margin: 0 auto;
             height: auto;
             transition: transform 0.5s ease;
         }
@@ -43,22 +44,22 @@
         .slide video {
             width: 500px;
             height: auto;
-            object-fit: fill;
+            object-fit: cover;
         }
 
-        /* Navigation dots */
         .nav {
             position: absolute;
             bottom: 10px;
             left: 50%;
+            color: white;
             transform: translateX(-50%);
             display: flex;
             gap: 8px;
         }
 
         .nav label {
-            width: 12px;
-            height: 12px;
+            width: 20px;
+            height: 20px;
             background: white;
             border-radius: 50%;
             cursor: pointer;
@@ -77,9 +78,12 @@
             transform: translateX(-200%);
         }
 
-        input#slide1:checked~.nav label[for="slide1"],
-        input#slide2:checked~.nav label[for="slide2"],
-        input#slide3:checked~.nav label[for="slide3"] {
+        input#slide1:checked~.nav label[ for="slide1"
+        ],
+        input#slide2:checked~.nav label[ for="slide2"
+        ],
+        input#slide3:checked~.nav label[ for="slide3"
+        ] {
             background: white;
         }
     </style>
@@ -88,18 +92,16 @@
 <body>
 
     <div class="carousel">
-        <!-- Radio buttons for slides -->
         <input type="radio" name="slides" id="slide1" checked>
         <input type="radio" name="slides" id="slide2">
         <input type="radio" name="slides" id="slide3">
 
         <div class="slides">
-            <div class="slide"><video src="videos/BrownSugarPremiumGuitarandBass.mp4" alt="Slide 1" controls></div>
+            <div class="slide"><video src="videos/BrownSugarPremiumGuitarandBass.mp4" alt="Slide 1" controls poster="videos/smaller-poster-featherw.jpg"></div>
             <div class="slide"><video src="videos/featherweightbodies.mp4" alt="Slide 2" controls></div>
-            <div class="slide"><video src="videos/finished true tune (1).mp4" alt="Slide 3" controls></div>
+            <div class="slide"><video src="videos/finished true tune (1).mp4" alt="Slide 3" controls poster="videos/poster true tune.png"></div>
         </div>
 
-        <!-- Navigation dots -->
         <div class="nav">
             <label for="slide1"></label>
             <label for="slide2"></label>
@@ -110,4 +112,3 @@
 </body>
 
 </html>
-
