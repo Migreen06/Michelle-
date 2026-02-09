@@ -483,9 +483,10 @@
 
      .marketing-images,
      .marketing-assets {
-         display: inline;
-         max-width: 100%;
-         justify-items: center;
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+         flex-wrap: nowrap;
      }
 
      .marketing-images>img {
