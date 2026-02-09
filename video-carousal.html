@@ -20,7 +20,7 @@
             height: auto;
             overflow: hidden;
             border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
 
         input[type="radio"] {
@@ -31,20 +31,18 @@
             display: flex;
             width: 100%;
             margin: 0 auto;
-            justify-content: center;
             height: auto;
             transition: transform 0.5s ease;
         }
 
         .slide {
             width: 100%;
-            height: auto;
+            height:auto;
             flex-shrink: 0;
         }
 
         .slide video {
             max-width: 100%;
-            margin: 0 auto;
             height: auto;
             object-fit: cover;
         }
@@ -85,7 +83,6 @@
         input#slide2:checked~.nav label[ for="slide2"
         ],
         input#slide3:checked~.nav label[ for="slide3"
-
         ] {
             background: white;
         }
@@ -100,12 +97,9 @@
         <input type="radio" name="slides" id="slide3">
 
         <div class="slides">
-            <div class="slide"><video src="videos/BrownSugarPremiumGuitarandBass.mp4" alt="Slide 1" controls
-                    poster="videos/Screenshot 2025-12-11 050652.png"></div>
-            <div class="slide"><video src="videos/neck video.mp4" alt="Slide 2" controls poster="videos/neck video.png">
-            </div>
-            <div class="slide"><video src="videos/finished true tune (1).mp4" alt="Slide 3" controls
-                    poster="videos/poster true tune.png"></div>
+            <div class="slide"><video src="videos/BrownSugarPremiumGuitarandBass.mp4" alt="Slide 1" controls poster="videos/Screenshot 2025-12-11 050652.png"></div>
+            <div class="slide"><video src="videos/neck video.mp4" alt="Slide 2" controls poster="videos/neck video.png"></div>
+            <div class="slide"><video src="videos/finished true tune (1).mp4" alt="Slide 3" controls poster="videos/poster true tune.png"></div>
         </div>
 
         <div class="nav">
